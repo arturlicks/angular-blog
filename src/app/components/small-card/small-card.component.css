@@ -1,0 +1,13 @@
+.container-small-card-content{
+    display: flex;
+    flex-direction: row;
+    border: solid white;
+    width: 800px;
+}
+.container-picture > img {
+    width: 100%;
+    max-width: 100%;
+}
+.container-title {
+    width: 100px;
+}
