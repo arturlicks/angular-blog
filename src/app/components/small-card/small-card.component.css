@@ -3,11 +3,17 @@
     flex-direction: row;
     border: solid white;
     width: 800px;
+    height: 200px;
+    justify-content: center;
 }
 .container-picture > img {
     width: 100%;
-    max-width: 100%;
+    height: 100%;
 }
-.container-title {
-    width: 100px;
+.container-title > p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
